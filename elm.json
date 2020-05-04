@@ -3,10 +3,11 @@
     "name": "ryan-senn/elm-readability",
     "summary": "Readability scores in Elm. New Dale–Chall & Coleman-Liau readability formula",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "exposed-modules": [
         "ColemanLiau",
         "DaleChall",
+        "DaleChallList",
         "Utility"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",

@@ -6,8 +6,16 @@ module DaleChall exposing (Config, configFromText, score, gradeLevel)
 
 -}
 
-import DaleChallList exposing (simpleWords)
+import DaleChallList
+import Dict exposing (Dict)
 import Utility
+
+
+simpleWords : Dict String ()
+simpleWords =
+    DaleChallList.simpleWords
+        |> List.map (\word -> ( word, () ))
+        |> Dict.fromList
 
 
 {-| Record that hold the required data to calculate a score.
@@ -95,7 +103,7 @@ difficultWordFilter word =
                 |> List.filter Char.isAlpha
                 |> String.fromList
     in
-    not (word_ == "") && not (List.member word_ simpleWords)
+    not (word_ == "") && not (Dict.member word_ simpleWords)
 
 
 difficultWordWeight : Float

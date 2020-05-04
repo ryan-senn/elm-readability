@@ -2,7 +2,7 @@
 
 This module calculates the readability of text.
 
-At this point in time, it supports the [Dale–Chall readability formula](https://en.wikipedia.org/wiki/Dale-Chall_readability_formula) and the [Cole-Liau readablility formula](https://en.wikipedia.org/wiki/Coleman-Liau_index)
+At this point in time, it supports the [Dale–Chall readability formula](https://en.wikipedia.org/wiki/Dale-Chall_readability_formula) and the [Coleman-Liau readablility formula](https://en.wikipedia.org/wiki/Coleman-Liau_index)
 
 It has been developed for and used in SEO Apps's [word counter tool](https://seoapps.dev/word-counter).
 

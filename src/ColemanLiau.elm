@@ -1,6 +1,6 @@
 module ColemanLiau exposing (Config, configFromText, score)
 
-{-| Dale-Chall readability formula. See <https://en.wikipedia.org/wiki/Coleman-Liau_index>
+{-| Coleman-Liau readability formula. See <https://en.wikipedia.org/wiki/Coleman-Liau_index>
 
 @docs Config, configFromText, score
 
